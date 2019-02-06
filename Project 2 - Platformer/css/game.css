@@ -1,0 +1,35 @@
+.background td { padding: 0;          }
+.lava          { background-image: url(https://orig00.deviantart.net/517a/f/2017/156/7/6/animated_lava_floor_by_hoover1979-dbbm4g0.gif); }
+.wall          { background-image: url(https://naldzgraphics.net/wp-content/uploads/2012/02/22-burnt-gravel.jpg);
+                 background-size: 50px;}
+.floater       { background: #cc0000;   }
+.actor         { position: absolute;  }
+.player        { background-image: url(http://freevector.co/wp-content/uploads/2009/07/47282-spider-arthropod-animal-silhouette.png);
+                 background-size: 27px;
+                 background-position: center;
+                 background-repeat: no-repeat;  }
+.run          { background-image: url(https://cdn4.iconfinder.com/data/icons/sports-recreation/128/running-2-512.png);
+                 background-size: 30px;
+                 background-repeat: no-repeat;}
+.lost .player  { background: rbg(160, 64, 64);  }
+.won .player   { box-shadow: -4px -7px 8px white, 4px -7px 8px white; }
+.coin          { background-image: url(https://img00.deviantart.net/049d/i/2012/334/5/8/fly_png_by_camelfobia-d5mlnkl.png);
+                 background-size: 30px;
+                 background-position: center;
+                 background-repeat: no-repeat;    }
+.enemy         { background-image: url(https://vignette.wikia.nocookie.net/c__/images/e/e5/Balfrog.png/revision/latest?cb=20160226211214&path-prefix=cavestory);
+                 background-size: 30px;
+                 background-repeat: no-repeat;}
+.bat           { background-image: url(https://images.vexels.com/media/users/3/143786/isolated/preview/2c3dd0cdc0eafbaac51f6c9b39da3790-black-bat-silhouette-6-by-vexels.png);
+                 background-size: 45px;
+                 background-repeat: no-repeat;}
+.portal        { background: tomato;   }
+.background    { background-image: url(http://texturelib.com/Textures/rock/cave/rock_cave_0028_01_preview.jpg);
+                 background-size: 100%;
+                 table-layout: fixed;
+                 background-repeat: no-repeat;
+                 border-spacing: 0;   }
+.game          { position: relative;
+                 max-height: 450px;
+                 max-width: 600px;
+                 overflow: hidden;    }
